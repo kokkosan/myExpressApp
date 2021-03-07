@@ -1,5 +1,5 @@
-const UserName = require('./valueObject/UserName');
-const UserAge = require('./valueObject/UserAge');
+const UserName = require("./valueObject/UserName");
+const UserAge = require("./valueObject/UserAge");
 class TestReqModel {
   constructor(obj_) {
     const { name, age } = obj_;
